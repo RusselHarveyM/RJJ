@@ -1,9 +1,10 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
+import classes from "./popup.module.css";
 
 const test = (
-  <div>
-    <h1>Hello World!</h1>
+  <div className={classes.popupContainer}>
+    <h1>Hello World!!!</h1>
   </div>
 );
 
